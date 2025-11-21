@@ -1,0 +1,36 @@
+name: Update Plastic SCM client metadata
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    name: Update metadata and commit
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          token: ${{ secrets.CONTENTS_TOKEN }}
+
+      - name: Install dependencies
+        run: |
+          sudo apt update
+          sudo apt install --no-install-recommends jc
+
+      - name: Update metadata files
+        run: |
+          packages="$(curl -sSL https://www.plasticscm.com/plasticrepo/stable/debian/Packages)"
+
+          for package in plasticscm-client-complete plasticscm-client-core plasticscm-client-gui plasticscm-theme; do
+            jc --pkg-index-deb <<<"$packages" |
+              jq --raw-output --arg package "$package" \
+                '[.[] | select(.package == $package)] | sort_by(.version) | last' \
+                >"$package".json
+          done
+
+      - name: Create auto commit
+        uses: stefanzweifel/git-auto-commit-action@v7
