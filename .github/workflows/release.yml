@@ -1,0 +1,80 @@
+name: Create release
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  release:
+    name: Create new release
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Check if plasticscm-client-complete.json exists
+        id: file
+        run: |
+          if [[ -f plasticscm-client-complete.json ]]; then
+            echo exists=true >>"$GITHUB_OUTPUT"
+          else
+            echo exists=false >>"$GITHUB_OUTPUT"
+          fi
+
+      - name: Get version
+        id: client
+        if: fromJSON(steps.file.outputs.exists)
+        run: |
+          version="$(jq --raw-output .version <plasticscm-client-complete.json)"
+
+          echo version="$version" >>"$GITHUB_OUTPUT"
+
+      - name: Check if tag exists
+        id: check
+        uses: actions/github-script@v8
+        if: steps.client.outcome == 'success'
+        env:
+          VERSION: ${{ steps.client.outputs.version }}
+        with:
+          script: |
+            try {
+              await github.rest.git.getRef({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                ref: `tags/v${process.env.VERSION}`,
+              });
+            } catch (error) {
+              if (error.status === 404) {
+                core.setOutput("new", "true");
+                return;
+              } else {
+                throw error;
+              }
+            }
+            core.setOutput("new", "false");
+
+      - name: Create tag and release
+        uses: actions/github-script@v8
+        if: steps.check.outcome == 'success' && fromJSON(steps.check.outputs.new)
+        env:
+          VERSION: ${{ steps.client.outputs.version }}
+        with:
+          script: |
+            await github.rest.git.createRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: `refs/tags/v${process.env.VERSION}`,
+              sha: context.sha,
+            });
+
+            await github.rest.repos.createRelease({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              tag_name: `v${process.env.VERSION}`,
+              generate_release_notes: true,
+            });
