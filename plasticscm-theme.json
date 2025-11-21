@@ -1,0 +1,16 @@
+{
+  "package": "plasticscm-theme",
+  "version": "11.0.16.9791",
+  "architecture": "amd64",
+  "maintainer": "Pablo Santos <psantosl@codicesoftware.com>",
+  "installed_size": 3856,
+  "conflicts": "plasticscm-client, plasticscm-server",
+  "filename": "./amd64/plasticscm-theme_11.0.16.9791_amd64.deb",
+  "size": 1070932,
+  "md5sum": "9ef97490726840493f658a98ff901bc3",
+  "sha1": "f3a765968610883acafb263024053f79eecc8782",
+  "sha256": "b089ca316e8aa14359ff4ebe13c3131b256d39dfbcc052cfac589b370fc3610d",
+  "section": "unknown",
+  "priority": "optional",
+  "description": "A Software Configuration Management system from"
+}

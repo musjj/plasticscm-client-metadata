@@ -1,0 +1,16 @@
+{
+  "package": "plasticscm-client-complete",
+  "version": "11.0.16.9791",
+  "architecture": "amd64",
+  "maintainer": "Pablo Santos <psantosl@codicesoftware.com>",
+  "installed_size": 25,
+  "depends": "plasticscm-client-core (= 11.0.16.9791), plasticscm-client-gui (= 11.0.16.9791)",
+  "filename": "./amd64/plasticscm-client-complete_11.0.16.9791_amd64.deb",
+  "size": 1174,
+  "md5sum": "99867133d180ee3373970fe245e94e98",
+  "sha1": "27fa3f654a3bbae920d2da128fdfa2566e5ac566",
+  "sha256": "a3ada70524d27ac7eea438df42a93a1abd99b084283958589c65f265d2863f6c",
+  "section": "unknown",
+  "priority": "optional",
+  "description": "A Software Configuration Management system from"
+}
