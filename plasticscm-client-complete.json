@@ -7,9 +7,9 @@
   "depends": "plasticscm-client-core (= 11.0.16.9843), plasticscm-client-gui (= 11.0.16.9843)",
   "filename": "./amd64/plasticscm-client-complete_11.0.16.9843_amd64.deb",
   "size": 1174,
-  "md5sum": "9ebe38910b92c81afa054c422cb9d280",
-  "sha1": "52d60e5f3b92ea75cc413a8d532326ca7e428e0a",
-  "sha256": "db48188a2dcbbb2161cf5971f52c172c269d94790715fcfb8c05df323d491f29",
+  "md5sum": "bb76aa59d2c83aa6d85007b829c3ca83",
+  "sha1": "05bd3473d26dbc07553ad3c6f7a4434c81f54201",
+  "sha256": "d24e18d151eeeb13b955a63d02c99f55a23a4122ff33c91ce918e45c87c89bf2",
   "section": "unknown",
   "priority": "optional",
   "description": "A Software Configuration Management system from"
