@@ -31,23 +31,6 @@ Description: Certificate management tools modified to work
  in batch mode (no user interaction).
 
 Package: plasticscm-client-complete
-Version: 11.0.16.10181
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 25
-Depends: plasticscm-client-core (= 11.0.16.10181), plasticscm-client-gui (= 11.0.16.10181)
-Filename: ./amd64/plasticscm-client-complete_11.0.16.10181_amd64.deb
-Size: 1168
-MD5sum: 9e96ad58d6f4ba5e19163addaefa3413
-SHA1: b4fc2a23f6999225b5e92c51d2815a318fa3e963
-SHA256: 291ee9718aa12f6a80dc73448fe09e4b73973c0bb059cde0c281b5afd74e987c
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. (Commercial.)
-
-Package: plasticscm-client-complete
 Version: 11.0.16.10216
 Architecture: amd64
 Maintainer: Pablo Santos <psantosl@codicesoftware.com>
@@ -58,57 +41,6 @@ Size: 1172
 MD5sum: 5a9f8034a061d92b02bb4c8c8b1fb8ee
 SHA1: c32356edb472a276f2386aa8d6e2af74850b954c
 SHA256: 148485241895aa3c86767431607b8eacc0bbc1e10414274d7671d1b584ef9689
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. (Commercial.)
-
-Package: plasticscm-client-complete
-Version: 11.0.16.10235
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 25
-Depends: plasticscm-client-core (= 11.0.16.10235), plasticscm-client-gui (= 11.0.16.10235)
-Filename: ./amd64/plasticscm-client-complete_11.0.16.10235_amd64.deb
-Size: 1174
-MD5sum: f3390cd3b2e4d37b0f76cc1cb68370fa
-SHA1: 7bb1d5b101644a18a3e40d4427253ce60ed1388c
-SHA256: a486bce629d1f4d97251761c25428c0bbb34a18c24c55a8792dd317385dd8e71
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. (Commercial.)
-
-Package: plasticscm-client-complete
-Version: 11.0.16.10244
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 25
-Depends: plasticscm-client-core (= 11.0.16.10244), plasticscm-client-gui (= 11.0.16.10244)
-Filename: ./amd64/plasticscm-client-complete_11.0.16.10244_amd64.deb
-Size: 1174
-MD5sum: 5006c5971e993605c4a1eaf359458ead
-SHA1: 334f9abf5eeaefe74b11a256b85e294068055cc6
-SHA256: aa551d9779f719571998ebc89f7c79f15c960c55a7ca729cdbec09ef6845ebc4
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. (Commercial.)
-
-Package: plasticscm-client-complete
-Version: 11.0.16.10246
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 25
-Depends: plasticscm-client-core (= 11.0.16.10246), plasticscm-client-gui (= 11.0.16.10246)
-Filename: ./amd64/plasticscm-client-complete_11.0.16.10246_amd64.deb
-Size: 1170
-MD5sum: 072aa1979e8529e944989e3f01bda8f3
-SHA1: 92b0fd26050ddaaff22b18f2889fda084e3b8638
-SHA256: fcdae01654ec152571da87223dc1962d49d981dbd869e9b9414ae4383de48aa8
 Section: unknown
 Priority: optional
 Description: A Software Configuration Management system from
@@ -132,18 +64,85 @@ Description: A Software Configuration Management system from
  Unity that tracks changes to source code and any
  digital asset over time. (Commercial.)
 
-Package: plasticscm-client-core
-Version: 11.0.16.10181
+Package: plasticscm-client-complete
+Version: 11.0.16.10268
 Architecture: amd64
 Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 162817
-Depends: libc6 (>= 2.16), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), libgssapi-krb5-2 (>= 1.10+dfsg~), libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76
-Conflicts: plasticscm-client, plasticscm-zlib1g, plasticscm-zlib1g-dev
-Filename: ./amd64/plasticscm-client-core_11.0.16.10181_amd64.deb
-Size: 67045008
-MD5sum: 848d4283a2a41cabae4c75b1b93357d2
-SHA1: aedf751025916b86eaec0f659ea750fd6306913a
-SHA256: 4f72313db834310d2e37bcc55ff0e2d297805b5e7a40d18bc814a58243039a33
+Installed-Size: 25
+Depends: plasticscm-client-core (= 11.0.16.10268), plasticscm-client-gui (= 11.0.16.10268)
+Filename: ./amd64/plasticscm-client-complete_11.0.16.10268_amd64.deb
+Size: 1174
+MD5sum: 81e123fa64156e328b4a582243d15a12
+SHA1: 7effb5b435df6a2792772cd6d2d12fc30e581c36
+SHA256: 0dccfe668ad7ba78bc1de64b6f66c992e5ec4509778bc58bd64d01fe58c8792f
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-client-complete
+Version: 11.0.16.10269
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 25
+Depends: plasticscm-client-core (= 11.0.16.10269), plasticscm-client-gui (= 11.0.16.10269)
+Filename: ./amd64/plasticscm-client-complete_11.0.16.10269_amd64.deb
+Size: 1176
+MD5sum: f13938957773bdfb66151a587524d971
+SHA1: 1e8007355fa137dca5eafe41e7d9d982d5a23b17
+SHA256: 08d0d367d77bf639f90fad1832f2a837b7964d07839fc14cc22b5da81195e8af
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-client-complete
+Version: 11.0.16.10273
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 25
+Depends: plasticscm-client-core (= 11.0.16.10273), plasticscm-client-gui (= 11.0.16.10273)
+Filename: ./amd64/plasticscm-client-complete_11.0.16.10273_amd64.deb
+Size: 1174
+MD5sum: a7db5f8d24728934d51f4c4fabe53e89
+SHA1: 2599e335609e971ec1360460210c5fc60434a05c
+SHA256: a81e43e05e6583b33665cae9b0b4c393c9b3526de42451ff28490f8a76554559
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-client-complete
+Version: 11.0.16.10274
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 25
+Depends: plasticscm-client-core (= 11.0.16.10274), plasticscm-client-gui (= 11.0.16.10274)
+Filename: ./amd64/plasticscm-client-complete_11.0.16.10274_amd64.deb
+Size: 1174
+MD5sum: de2c02453585a1e133271e308918cfd6
+SHA1: 47f72553c1199202beaf64efde5aa8db4de10978
+SHA256: ebaed21284ac513174356e617d12d695954f90c372a1580f13fe5b896f7e875a
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-client-complete
+Version: 11.0.16.10275
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 25
+Depends: plasticscm-client-core (= 11.0.16.10275), plasticscm-client-gui (= 11.0.16.10275)
+Filename: ./amd64/plasticscm-client-complete_11.0.16.10275_amd64.deb
+Size: 1174
+MD5sum: 3e634eb3013193a0729b2c4a9d4f71e7
+SHA1: 0ae8a0b5be7ab2f7468f11fb5b30b2f3e49b7503
+SHA256: 03ed644c00992e89c70e3f9daf5b1819d0619b1d98d3c6b1097b4626a0edd314
 Section: unknown
 Priority: optional
 Description: A Software Configuration Management system from
@@ -169,60 +168,6 @@ Description: A Software Configuration Management system from
  digital asset over time. (Commercial.)
 
 Package: plasticscm-client-core
-Version: 11.0.16.10235
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 129771
-Depends: libc6 (>= 2.16), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), libgssapi-krb5-2 (>= 1.10+dfsg~), libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76
-Conflicts: plasticscm-client, plasticscm-zlib1g, plasticscm-zlib1g-dev
-Filename: ./amd64/plasticscm-client-core_11.0.16.10235_amd64.deb
-Size: 60027758
-MD5sum: f53a5408cb77e3998cbe09751399d082
-SHA1: aac454b64dfcf7640bc4e0aedbd7a2e74523279a
-SHA256: 7178ebbabe806a8bc268e8b397108ced8c14d8a19ecf779da6295aaf9dec0193
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. (Commercial.)
-
-Package: plasticscm-client-core
-Version: 11.0.16.10244
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 129772
-Depends: libc6 (>= 2.16), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), libgssapi-krb5-2 (>= 1.10+dfsg~), libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76
-Conflicts: plasticscm-client, plasticscm-zlib1g, plasticscm-zlib1g-dev
-Filename: ./amd64/plasticscm-client-core_11.0.16.10244_amd64.deb
-Size: 60015010
-MD5sum: c0f2c1d397d28e665d8913659e78801b
-SHA1: f0145f9c4fbdb841dbb335472bd6969899151b49
-SHA256: f603627ec3fb7b9d368e04f5ccfd9f1093c24a00435803dd8e3a346129a17ea0
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. (Commercial.)
-
-Package: plasticscm-client-core
-Version: 11.0.16.10246
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 129774
-Depends: libc6 (>= 2.16), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), libgssapi-krb5-2 (>= 1.10+dfsg~), libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76
-Conflicts: plasticscm-client, plasticscm-zlib1g, plasticscm-zlib1g-dev
-Filename: ./amd64/plasticscm-client-core_11.0.16.10246_amd64.deb
-Size: 60023966
-MD5sum: 10ade1c42480f62db9c2cbeb0461dfa9
-SHA1: 836c3945fb880b8769256048b1920bc60d41ce0d
-SHA256: 6d9c4ef0ec388d81ba43941f55b701c487df5a909e62c70cff2a257f7c933b88
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. (Commercial.)
-
-Package: plasticscm-client-core
 Version: 11.0.16.10255
 Architecture: amd64
 Maintainer: Pablo Santos <psantosl@codicesoftware.com>
@@ -240,23 +185,95 @@ Description: A Software Configuration Management system from
  Unity that tracks changes to source code and any
  digital asset over time. (Commercial.)
 
-Package: plasticscm-client-gui
-Version: 11.0.16.10181
+Package: plasticscm-client-core
+Version: 11.0.16.10268
 Architecture: amd64
 Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 310279
-Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, plasticscm-client-core (= 11.0.16.10181), plasticscm-theme (= 11.0.16.10181)
-Filename: ./amd64/plasticscm-client-gui_11.0.16.10181_amd64.deb
-Size: 89814110
-MD5sum: f739d44149d7014cd162a921508de9da
-SHA1: 722522a195acbbb48125be9aaf1adbb0104d59e4
-SHA256: ba14d250c41246efb88043c06c59d4184635229acb54d6f6d62cd7523a3f583e
-Section: Development
+Installed-Size: 129786
+Depends: libc6 (>= 2.16), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), libgssapi-krb5-2 (>= 1.10+dfsg~), libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76
+Conflicts: plasticscm-client, plasticscm-zlib1g, plasticscm-zlib1g-dev
+Filename: ./amd64/plasticscm-client-core_11.0.16.10268_amd64.deb
+Size: 60021600
+MD5sum: 81fdb9d4b1622dfc42a8277679899869
+SHA1: ec63af8db65dde4d71fa9068ba46617fa2d4fdf0
+SHA256: 99a701ff98b8041442e964062ddf1735eb241591cf0bbfed789a7cb270446165
+Section: unknown
 Priority: optional
-Homepage: http://www.plasticscm.com/
-Description: A Software Configuration Management system from Codice Software
- that tracks changes to source code an any digital asset over time.
- (Commercial)
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-client-core
+Version: 11.0.16.10269
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 129786
+Depends: libc6 (>= 2.16), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), libgssapi-krb5-2 (>= 1.10+dfsg~), libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76
+Conflicts: plasticscm-client, plasticscm-zlib1g, plasticscm-zlib1g-dev
+Filename: ./amd64/plasticscm-client-core_11.0.16.10269_amd64.deb
+Size: 60020360
+MD5sum: 96b6bf361fc617376a0d0e110ad136cf
+SHA1: bd26074b8182634abaf954a5a6203894add45eb9
+SHA256: 62d9e6d2fe485e9c7e0d15337612b1c226f1509761ee58cbf1a1fbaf3a73333d
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-client-core
+Version: 11.0.16.10273
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 129786
+Depends: libc6 (>= 2.16), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), libgssapi-krb5-2 (>= 1.10+dfsg~), libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76
+Conflicts: plasticscm-client, plasticscm-zlib1g, plasticscm-zlib1g-dev
+Filename: ./amd64/plasticscm-client-core_11.0.16.10273_amd64.deb
+Size: 60017566
+MD5sum: 82c5a6223a9803f3e47aabbb9871e6b9
+SHA1: 89b4add227279e6ef3c9bcfdfb021f16120fe188
+SHA256: 8515e2c98fb965ac6e0099eb036f336d1fab0fbbfdd04dd0261f51ba261e3e55
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-client-core
+Version: 11.0.16.10274
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 129786
+Depends: libc6 (>= 2.16), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), libgssapi-krb5-2 (>= 1.10+dfsg~), libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76
+Conflicts: plasticscm-client, plasticscm-zlib1g, plasticscm-zlib1g-dev
+Filename: ./amd64/plasticscm-client-core_11.0.16.10274_amd64.deb
+Size: 60016928
+MD5sum: c4e26755d5a84a0d2354ac8c142c425c
+SHA1: bb4bb835ff0b37d76ebdb099aa4286ecd9f1eab5
+SHA256: 8f02805a2dc526522ad7d2232580e7d9269e4dfed1ab0af4f407cbb3c41613a9
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-client-core
+Version: 11.0.16.10275
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 129786
+Depends: libc6 (>= 2.16), libgcc1 (>= 1:4.1.1), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), libgssapi-krb5-2 (>= 1.10+dfsg~), libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76
+Conflicts: plasticscm-client, plasticscm-zlib1g, plasticscm-zlib1g-dev
+Filename: ./amd64/plasticscm-client-core_11.0.16.10275_amd64.deb
+Size: 60020416
+MD5sum: 8600b060372170e136d82ef0747d8503
+SHA1: a043a714b78c284971efa2bcc88ff5be5c4d6a29
+SHA256: 26b435ac2bbafb35525034a6cf193749e38b62776061bcd01d63e5d924080069
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
 
 Package: plasticscm-client-gui
 Version: 11.0.16.10216
@@ -269,60 +286,6 @@ Size: 90189566
 MD5sum: 334403cc72d914a27135eac06b8460fb
 SHA1: aa8f5418d1383fbf954d6eab9bee856be5490c47
 SHA256: 5365c13b73881e95e342dc9af50b6bbe7446a0d79a46aad1195054c1fc084ef5
-Section: Development
-Priority: optional
-Homepage: http://www.plasticscm.com/
-Description: A Software Configuration Management system from Codice Software
- that tracks changes to source code an any digital asset over time.
- (Commercial)
-
-Package: plasticscm-client-gui
-Version: 11.0.16.10235
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 312410
-Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, plasticscm-client-core (= 11.0.16.10235), plasticscm-theme (= 11.0.16.10235)
-Filename: ./amd64/plasticscm-client-gui_11.0.16.10235_amd64.deb
-Size: 90215686
-MD5sum: 0c2c1ad33bf4584c0b316387c3707d6c
-SHA1: 75e5978bd303a72ccb94f78fb83f76138a4f8f69
-SHA256: 1bd0c549f16ab4e020adcfa341630d974c1cb9a70123d3b47ed582ceb4ade016
-Section: Development
-Priority: optional
-Homepage: http://www.plasticscm.com/
-Description: A Software Configuration Management system from Codice Software
- that tracks changes to source code an any digital asset over time.
- (Commercial)
-
-Package: plasticscm-client-gui
-Version: 11.0.16.10244
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 312437
-Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, plasticscm-client-core (= 11.0.16.10244), plasticscm-theme (= 11.0.16.10244)
-Filename: ./amd64/plasticscm-client-gui_11.0.16.10244_amd64.deb
-Size: 90211342
-MD5sum: e016673149514b3dd0321fcc272fb065
-SHA1: 331989a2026b1387484968e3964e7ff686a8f0fa
-SHA256: a1d0fc3a6e22adc9c14b5931655ee52b41ba6cfba041335f36494f9f223714fe
-Section: Development
-Priority: optional
-Homepage: http://www.plasticscm.com/
-Description: A Software Configuration Management system from Codice Software
- that tracks changes to source code an any digital asset over time.
- (Commercial)
-
-Package: plasticscm-client-gui
-Version: 11.0.16.10246
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 312440
-Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, plasticscm-client-core (= 11.0.16.10246), plasticscm-theme (= 11.0.16.10246)
-Filename: ./amd64/plasticscm-client-gui_11.0.16.10246_amd64.deb
-Size: 90221474
-MD5sum: e9d20ba29aeafca52ce00ee6bd75ff97
-SHA1: 3d4d229b6417808f1cdc485e3e71fa20c4af33ae
-SHA256: 185a7e0cd7325e8153a2d33dcc67ef285fa90cb947e09fe4face95f3fff27d30
 Section: Development
 Priority: optional
 Homepage: http://www.plasticscm.com/
@@ -348,23 +311,95 @@ Description: A Software Configuration Management system from Codice Software
  that tracks changes to source code an any digital asset over time.
  (Commercial)
 
-Package: plasticscm-cloud
-Version: 11.0.16.10181
+Package: plasticscm-client-gui
+Version: 11.0.16.10268
 Architecture: amd64
 Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 42
-Depends: plasticscm-client-complete (= 11.0.16.10181), plasticscm-server-core (= 11.0.16.10181)
-Conflicts: plasticscm-dvcs
-Filename: ./amd64/plasticscm-cloud_11.0.16.10181_amd64.deb
-Size: 2922
-MD5sum: 48581eaf30174626bb2fedeeb077c606
-SHA1: 6e770fac9c7a73ea2d50d7e18c8d0143a87720d0
-SHA256: e464a38418ef495a45f8df421b9075de9d2af312b0b8c063bd5ef1a2a47cb5ff
-Section: unknown
+Installed-Size: 312483
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, plasticscm-client-core (= 11.0.16.10268), plasticscm-theme (= 11.0.16.10268)
+Filename: ./amd64/plasticscm-client-gui_11.0.16.10268_amd64.deb
+Size: 90232652
+MD5sum: fbcb77e3c4f51d37de209c7e07b665b4
+SHA1: 19826a988dcae537af0e05ef3dca6ce84d9e1eb2
+SHA256: 640564d8f783101afde3ce4ae542dbb60b7ad7ce9745bda0fcb3ecff6f6e149d
+Section: Development
 Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. Cloud Edition. (Commercial.)
+Homepage: http://www.plasticscm.com/
+Description: A Software Configuration Management system from Codice Software
+ that tracks changes to source code an any digital asset over time.
+ (Commercial)
+
+Package: plasticscm-client-gui
+Version: 11.0.16.10269
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 312483
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, plasticscm-client-core (= 11.0.16.10269), plasticscm-theme (= 11.0.16.10269)
+Filename: ./amd64/plasticscm-client-gui_11.0.16.10269_amd64.deb
+Size: 90221056
+MD5sum: a0a6ad7001adc25ab1c3811f11daff74
+SHA1: b44d943b13bec3631945c0d9daf734260ca78a38
+SHA256: 27e85cda567c8a8bc372bb5ee23019b2265c42b609941b0fa68301999e902494
+Section: Development
+Priority: optional
+Homepage: http://www.plasticscm.com/
+Description: A Software Configuration Management system from Codice Software
+ that tracks changes to source code an any digital asset over time.
+ (Commercial)
+
+Package: plasticscm-client-gui
+Version: 11.0.16.10273
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 312488
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, plasticscm-client-core (= 11.0.16.10273), plasticscm-theme (= 11.0.16.10273)
+Filename: ./amd64/plasticscm-client-gui_11.0.16.10273_amd64.deb
+Size: 90232606
+MD5sum: 732b6f62e63077485b17511a5639ea43
+SHA1: 79fe88be7a246cea4f618f2b902d098aab98ac73
+SHA256: 6b514ccb3422ea8ab3cfe2ab242901926b43c1d098b915f189e5fd5fece75276
+Section: Development
+Priority: optional
+Homepage: http://www.plasticscm.com/
+Description: A Software Configuration Management system from Codice Software
+ that tracks changes to source code an any digital asset over time.
+ (Commercial)
+
+Package: plasticscm-client-gui
+Version: 11.0.16.10274
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 312488
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, plasticscm-client-core (= 11.0.16.10274), plasticscm-theme (= 11.0.16.10274)
+Filename: ./amd64/plasticscm-client-gui_11.0.16.10274_amd64.deb
+Size: 90235754
+MD5sum: 5956c84bd7f96a1f6a54deb729a1b447
+SHA1: 5919bf04bef7643f2b1026442f68c2d3cf013a39
+SHA256: e64dd2c750197004fea9f0dfd5072775d3f84a4781e124db755273b98f69dd32
+Section: Development
+Priority: optional
+Homepage: http://www.plasticscm.com/
+Description: A Software Configuration Management system from Codice Software
+ that tracks changes to source code an any digital asset over time.
+ (Commercial)
+
+Package: plasticscm-client-gui
+Version: 11.0.16.10275
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 312488
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, plasticscm-client-core (= 11.0.16.10275), plasticscm-theme (= 11.0.16.10275)
+Filename: ./amd64/plasticscm-client-gui_11.0.16.10275_amd64.deb
+Size: 90240076
+MD5sum: bc986db6345085d06e1aaa5482eb0e8a
+SHA1: 49bfe79506725f34576416bf95da405ad717d2ea
+SHA256: 471197e4e2db47131a4dfe0943d162da30d2dd40dbf6e905fe069eb8c8252092
+Section: Development
+Priority: optional
+Homepage: http://www.plasticscm.com/
+Description: A Software Configuration Management system from Codice Software
+ that tracks changes to source code an any digital asset over time.
+ (Commercial)
 
 Package: plasticscm-cloud
 Version: 11.0.16.10216
@@ -378,60 +413,6 @@ Size: 2928
 MD5sum: d6a9900e19d2fdf748e24bb522ab1e74
 SHA1: 46c41a64facd1825d169cf36fde5e6c4efdd3fed
 SHA256: 11ff524d2b05ddff100bf541482cd0c039091b4512f04e5db37941c0ca2e64f8
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. Cloud Edition. (Commercial.)
-
-Package: plasticscm-cloud
-Version: 11.0.16.10235
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 42
-Depends: plasticscm-client-complete (= 11.0.16.10235), plasticscm-server-core (= 11.0.16.10235)
-Conflicts: plasticscm-dvcs
-Filename: ./amd64/plasticscm-cloud_11.0.16.10235_amd64.deb
-Size: 2918
-MD5sum: 729ff43b1072d88b077c3eb29e3597b6
-SHA1: f45ca6d4d16a6071fd5111dad62f02ac71ea148f
-SHA256: e9c9bd87bd60df3a130a6a4a464e80855c7ff21cfb8a77c51b7584c3b4671c41
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. Cloud Edition. (Commercial.)
-
-Package: plasticscm-cloud
-Version: 11.0.16.10244
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 42
-Depends: plasticscm-client-complete (= 11.0.16.10244), plasticscm-server-core (= 11.0.16.10244)
-Conflicts: plasticscm-dvcs
-Filename: ./amd64/plasticscm-cloud_11.0.16.10244_amd64.deb
-Size: 2924
-MD5sum: 5f109a032a85293bcd7c1b0f4669bd7a
-SHA1: dc7f1cb2741b4391af8c48136265984cf12b88fd
-SHA256: c33e62f63091038c0137d677ca63982bf7068c6d8db7dee228b515dee0b5eeb7
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. Cloud Edition. (Commercial.)
-
-Package: plasticscm-cloud
-Version: 11.0.16.10246
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 42
-Depends: plasticscm-client-complete (= 11.0.16.10246), plasticscm-server-core (= 11.0.16.10246)
-Conflicts: plasticscm-dvcs
-Filename: ./amd64/plasticscm-cloud_11.0.16.10246_amd64.deb
-Size: 2918
-MD5sum: 002ed3ec882dc89ed33e9458935eceee
-SHA1: ddbd7cf0e4548ffb2c3d6c4a71cfbc3dbfaeacad
-SHA256: a70a7fd05b15f573673f4b360026a1019440e196b5ac22f74955f1b7b1fe4177
 Section: unknown
 Priority: optional
 Description: A Software Configuration Management system from
@@ -456,22 +437,95 @@ Description: A Software Configuration Management system from
  Unity that tracks changes to source code and any
  digital asset over time. Cloud Edition. (Commercial.)
 
-Package: plasticscm-complete
-Version: 11.0.16.10181
+Package: plasticscm-cloud
+Version: 11.0.16.10268
 Architecture: amd64
 Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 25
-Depends: plasticscm-client-complete (= 11.0.16.10181), plasticscm-server-complete (= 11.0.16.10181)
-Filename: ./amd64/plasticscm-complete_11.0.16.10181_amd64.deb
-Size: 1166
-MD5sum: 1672c25c713a075b08fa2a48a59775fc
-SHA1: 4f062dc85defa896555e7555e40735bf4f8c5b7a
-SHA256: 1519b892d90a18f518f7dbce656f39fd6d2ed87829b0ff8cc7ef2b14c1ef1042
+Installed-Size: 42
+Depends: plasticscm-client-complete (= 11.0.16.10268), plasticscm-server-core (= 11.0.16.10268)
+Conflicts: plasticscm-dvcs
+Filename: ./amd64/plasticscm-cloud_11.0.16.10268_amd64.deb
+Size: 2932
+MD5sum: 46be4760df551bcdf55a41eaf9a9970e
+SHA1: 859b78087ccdf5eb7ebc0d49d66790724b0a1dfb
+SHA256: bb6890d6069ba5758edc75d2456d33a28ce29ee98e650b5cc43a851f8010054f
 Section: unknown
 Priority: optional
 Description: A Software Configuration Management system from
  Unity that tracks changes to source code and any
- digital asset over time. (Commercial.)
+ digital asset over time. Cloud Edition. (Commercial.)
+
+Package: plasticscm-cloud
+Version: 11.0.16.10269
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 42
+Depends: plasticscm-client-complete (= 11.0.16.10269), plasticscm-server-core (= 11.0.16.10269)
+Conflicts: plasticscm-dvcs
+Filename: ./amd64/plasticscm-cloud_11.0.16.10269_amd64.deb
+Size: 2930
+MD5sum: 16c1571b1b99508cec413c42d3daf2eb
+SHA1: 58e6a8314ed30f4698b2bc8f88f40e5bca0e8713
+SHA256: 94452e9e6410a7d90b299db4a4af64b83f22b84c0df277f9d77e3e90b44689fb
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. Cloud Edition. (Commercial.)
+
+Package: plasticscm-cloud
+Version: 11.0.16.10273
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 42
+Depends: plasticscm-client-complete (= 11.0.16.10273), plasticscm-server-core (= 11.0.16.10273)
+Conflicts: plasticscm-dvcs
+Filename: ./amd64/plasticscm-cloud_11.0.16.10273_amd64.deb
+Size: 2918
+MD5sum: ff18b38eb2be27baee890f0807b71468
+SHA1: 383c3d5939474975b88c63bb2d025672b71babfd
+SHA256: 5f74173c8b69e9f2201f2b4d171b7ae152ee05298cb4b4da691de96e8bac747a
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. Cloud Edition. (Commercial.)
+
+Package: plasticscm-cloud
+Version: 11.0.16.10274
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 42
+Depends: plasticscm-client-complete (= 11.0.16.10274), plasticscm-server-core (= 11.0.16.10274)
+Conflicts: plasticscm-dvcs
+Filename: ./amd64/plasticscm-cloud_11.0.16.10274_amd64.deb
+Size: 2916
+MD5sum: 4f6e6ab498645430a4fe1ac111ea4fc6
+SHA1: 5172a27bce4923f429f9b1b0bf4e620d9e9180a7
+SHA256: 4509a2b17e36b5cc856a3b1e99ac5930f4f530580d1ecc97ab5b1ee992c829b9
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. Cloud Edition. (Commercial.)
+
+Package: plasticscm-cloud
+Version: 11.0.16.10275
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 42
+Depends: plasticscm-client-complete (= 11.0.16.10275), plasticscm-server-core (= 11.0.16.10275)
+Conflicts: plasticscm-dvcs
+Filename: ./amd64/plasticscm-cloud_11.0.16.10275_amd64.deb
+Size: 2912
+MD5sum: a687d0dcb8a7d0f825e5a6f0d5f36043
+SHA1: e287d1a9f099fb6dcaed238ea273a55d08f4a023
+SHA256: 50d7c0879b0f325e28ddcea99e6804c04a4d5cdb7c1cff52f8490624e1db8d65
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. Cloud Edition. (Commercial.)
 
 Package: plasticscm-complete
 Version: 11.0.16.10216
@@ -484,57 +538,6 @@ Size: 1162
 MD5sum: 8788223beaf6cdaf3713baa511b9613f
 SHA1: 8aaff93165047c48593ba7ffcfb2c024f2c0763d
 SHA256: a49c4f307026c1a583739ee59bddd3abc4a20f1a332f485a564174ebc2927650
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. (Commercial.)
-
-Package: plasticscm-complete
-Version: 11.0.16.10235
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 25
-Depends: plasticscm-client-complete (= 11.0.16.10235), plasticscm-server-complete (= 11.0.16.10235)
-Filename: ./amd64/plasticscm-complete_11.0.16.10235_amd64.deb
-Size: 1162
-MD5sum: 2765fda5328d6b403d2f6c9add784e5d
-SHA1: 0c82a6f54da091cb5c95b699ba55f96a0c42bd25
-SHA256: c60be204853a0de964f98b4db9d4684154a017198d4d0987024ef534927bfcd9
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. (Commercial.)
-
-Package: plasticscm-complete
-Version: 11.0.16.10244
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 25
-Depends: plasticscm-client-complete (= 11.0.16.10244), plasticscm-server-complete (= 11.0.16.10244)
-Filename: ./amd64/plasticscm-complete_11.0.16.10244_amd64.deb
-Size: 1160
-MD5sum: 421e015f08aaed5a856b2f3882a8c06a
-SHA1: d4cefb67ed974ab03571c057d0608bd2e05b0197
-SHA256: fe0f315cdb2ed1fcf14bb514035756e840bab6d15d5a8841b24603a467174746
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. (Commercial.)
-
-Package: plasticscm-complete
-Version: 11.0.16.10246
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 25
-Depends: plasticscm-client-complete (= 11.0.16.10246), plasticscm-server-complete (= 11.0.16.10246)
-Filename: ./amd64/plasticscm-complete_11.0.16.10246_amd64.deb
-Size: 1162
-MD5sum: 81ed279c0521878672a4670ea4bba3cc
-SHA1: 8ba8540bc10941ed6d537f37335dbb27ea50c9a3
-SHA256: 3fc940df7a5c7f29fe559d2763c26b746100f8d8664918f944eb25375ab202b3
 Section: unknown
 Priority: optional
 Description: A Software Configuration Management system from
@@ -558,23 +561,90 @@ Description: A Software Configuration Management system from
  Unity that tracks changes to source code and any
  digital asset over time. (Commercial.)
 
-Package: plasticscm-dvcs
-Version: 11.0.16.10181
+Package: plasticscm-complete
+Version: 11.0.16.10268
 Architecture: amd64
 Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 42
-Depends: plasticscm-client-complete (= 11.0.16.10181), plasticscm-server-core (= 11.0.16.10181)
-Conflicts: plasticscm-cloud
-Filename: ./amd64/plasticscm-dvcs_11.0.16.10181_amd64.deb
-Size: 2932
-MD5sum: fe30c6e1f9ddf0205be77fe24be37ae8
-SHA1: a6c5347e7e713312a787ead214024a3628e9ee1d
-SHA256: d5d1f741baa62085e1581362d763427de1be4cd206c6199f3ed37af7f084a9c0
+Installed-Size: 25
+Depends: plasticscm-client-complete (= 11.0.16.10268), plasticscm-server-complete (= 11.0.16.10268)
+Filename: ./amd64/plasticscm-complete_11.0.16.10268_amd64.deb
+Size: 1162
+MD5sum: 8ff6a67d2fa71b106452f4e3d2cf37c1
+SHA1: 4d8200510cb7b2e1ba465f9dd86f0c03c84544ca
+SHA256: e195ae710360744427383ed672a9e1e183b566bca1c534ab16eb66cdcbbfd201
 Section: unknown
 Priority: optional
 Description: A Software Configuration Management system from
  Unity that tracks changes to source code and any
- digital asset over time. DVCS Edition. (Commercial.)
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-complete
+Version: 11.0.16.10269
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 25
+Depends: plasticscm-client-complete (= 11.0.16.10269), plasticscm-server-complete (= 11.0.16.10269)
+Filename: ./amd64/plasticscm-complete_11.0.16.10269_amd64.deb
+Size: 1162
+MD5sum: b715d60b62e7df35a804f990494b60d9
+SHA1: a80cd9eccc3339faa133a05ceb5b75f936307cb3
+SHA256: 59494c71f5f2b08cadea3cf7788d09d2e77806b885fd8a4f355a96bc1e91281f
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-complete
+Version: 11.0.16.10273
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 25
+Depends: plasticscm-client-complete (= 11.0.16.10273), plasticscm-server-complete (= 11.0.16.10273)
+Filename: ./amd64/plasticscm-complete_11.0.16.10273_amd64.deb
+Size: 1170
+MD5sum: ae6bf9a6dc767eb02397b13c87c70e8f
+SHA1: 02248e89f541c3727ebda885b707c10d315b5713
+SHA256: 16bc8491605dc0a3ab345da26aa10041a8e3c1c17062284f135a0e76f915a115
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-complete
+Version: 11.0.16.10274
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 25
+Depends: plasticscm-client-complete (= 11.0.16.10274), plasticscm-server-complete (= 11.0.16.10274)
+Filename: ./amd64/plasticscm-complete_11.0.16.10274_amd64.deb
+Size: 1166
+MD5sum: 7d8d6355950f6f9c26b52274841ab2b3
+SHA1: d844d3a933bb3fdaa226701a4d7adb4a4fac5ca1
+SHA256: 51af29d7c58b2981751c73290b673f47387a651a45a27466a8995c0c643aaefb
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-complete
+Version: 11.0.16.10275
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 25
+Depends: plasticscm-client-complete (= 11.0.16.10275), plasticscm-server-complete (= 11.0.16.10275)
+Filename: ./amd64/plasticscm-complete_11.0.16.10275_amd64.deb
+Size: 1166
+MD5sum: cd164fc5a24ceeee76c550a23741b1f8
+SHA1: e57793da929820cae7759f6ab2c7d47ddd1db7d4
+SHA256: bc64e1b70747ef05c640f643490a19868f3192d1b57a54c97cae7c7276081bd3
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
 
 Package: plasticscm-dvcs
 Version: 11.0.16.10216
@@ -595,60 +665,6 @@ Description: A Software Configuration Management system from
  digital asset over time. DVCS Edition. (Commercial.)
 
 Package: plasticscm-dvcs
-Version: 11.0.16.10235
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 42
-Depends: plasticscm-client-complete (= 11.0.16.10235), plasticscm-server-core (= 11.0.16.10235)
-Conflicts: plasticscm-cloud
-Filename: ./amd64/plasticscm-dvcs_11.0.16.10235_amd64.deb
-Size: 2928
-MD5sum: 4dec90c20d3f16e3c98b050b834cc9cc
-SHA1: 484cc6cf8981e5469b2b6c46611636d733daff89
-SHA256: affd3449598fb3b13fe3c5d999dddadeedd1dc9ecb64391aa860303debec66a4
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. DVCS Edition. (Commercial.)
-
-Package: plasticscm-dvcs
-Version: 11.0.16.10244
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 42
-Depends: plasticscm-client-complete (= 11.0.16.10244), plasticscm-server-core (= 11.0.16.10244)
-Conflicts: plasticscm-cloud
-Filename: ./amd64/plasticscm-dvcs_11.0.16.10244_amd64.deb
-Size: 2930
-MD5sum: 9eca0a26e9087f63f3a1ae3a176d2f68
-SHA1: 75a261af8288f88c159dda2af7d7cd937d9232b5
-SHA256: 731fa21ec989ca31dfd82b5d0294c9288cd95862b5a61a9915d85351771f158b
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. DVCS Edition. (Commercial.)
-
-Package: plasticscm-dvcs
-Version: 11.0.16.10246
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 42
-Depends: plasticscm-client-complete (= 11.0.16.10246), plasticscm-server-core (= 11.0.16.10246)
-Conflicts: plasticscm-cloud
-Filename: ./amd64/plasticscm-dvcs_11.0.16.10246_amd64.deb
-Size: 2934
-MD5sum: 27f038ca506861dea9ca8da16853313b
-SHA1: 9f2d334dcda4528e93a4cb22e2de1fb3ec8ec1a5
-SHA256: e05ff71b8f381d88d3bb38f32088dce67013a1e434c0a894cfee2a603dad2234
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. DVCS Edition. (Commercial.)
-
-Package: plasticscm-dvcs
 Version: 11.0.16.10255
 Architecture: amd64
 Maintainer: Pablo Santos <psantosl@codicesoftware.com>
@@ -660,6 +676,96 @@ Size: 2938
 MD5sum: 0e27f12b4c6d9da7be77987c69c0c454
 SHA1: 4ad9123a9bbbf78b36649d3aaf620a5a601f4714
 SHA256: b6b7750b4c9c97a6a29ce549f79d922c95c6ba28cedb79498d072e4144784725
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. DVCS Edition. (Commercial.)
+
+Package: plasticscm-dvcs
+Version: 11.0.16.10268
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 42
+Depends: plasticscm-client-complete (= 11.0.16.10268), plasticscm-server-core (= 11.0.16.10268)
+Conflicts: plasticscm-cloud
+Filename: ./amd64/plasticscm-dvcs_11.0.16.10268_amd64.deb
+Size: 2934
+MD5sum: 5b048f88444537c5154778e460cd9204
+SHA1: 7904379ab8b39f1e8a8dde334002a6ef00c2b010
+SHA256: f27de7b274bf7fab1df28037dd7e509a36bc453bb51d9d8250efa6f177b6f4c8
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. DVCS Edition. (Commercial.)
+
+Package: plasticscm-dvcs
+Version: 11.0.16.10269
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 42
+Depends: plasticscm-client-complete (= 11.0.16.10269), plasticscm-server-core (= 11.0.16.10269)
+Conflicts: plasticscm-cloud
+Filename: ./amd64/plasticscm-dvcs_11.0.16.10269_amd64.deb
+Size: 2938
+MD5sum: 54ae0cd5d75781eeec7b6a1a90b238e0
+SHA1: aedc7e021ed21da9d6cd23c9e654b83fd53b936a
+SHA256: b816fdb16c95f5192d607e1bf5d77674702f07a059a05925bb13bb4749974cbf
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. DVCS Edition. (Commercial.)
+
+Package: plasticscm-dvcs
+Version: 11.0.16.10273
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 42
+Depends: plasticscm-client-complete (= 11.0.16.10273), plasticscm-server-core (= 11.0.16.10273)
+Conflicts: plasticscm-cloud
+Filename: ./amd64/plasticscm-dvcs_11.0.16.10273_amd64.deb
+Size: 2936
+MD5sum: 90ddad6b20fa8c2c036ded8987e4be1c
+SHA1: 1d1396eb7e178c5e4f53acc3144c2086fbb0b208
+SHA256: ad4b45b08296477beadd6ecc493cba3ae7871dbd8470bc9ffe7bd322159b18c7
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. DVCS Edition. (Commercial.)
+
+Package: plasticscm-dvcs
+Version: 11.0.16.10274
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 42
+Depends: plasticscm-client-complete (= 11.0.16.10274), plasticscm-server-core (= 11.0.16.10274)
+Conflicts: plasticscm-cloud
+Filename: ./amd64/plasticscm-dvcs_11.0.16.10274_amd64.deb
+Size: 2926
+MD5sum: c1b0cd12ac56128b96aedaf277a32ab5
+SHA1: 0e0125c0c9ae2f61f798d35b6fd79e865684956d
+SHA256: 2ee538647f0891d522451165b39aaba6d23872e1668ab87bd53c76f23a5a3454
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. DVCS Edition. (Commercial.)
+
+Package: plasticscm-dvcs
+Version: 11.0.16.10275
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 42
+Depends: plasticscm-client-complete (= 11.0.16.10275), plasticscm-server-core (= 11.0.16.10275)
+Conflicts: plasticscm-cloud
+Filename: ./amd64/plasticscm-dvcs_11.0.16.10275_amd64.deb
+Size: 2930
+MD5sum: fd86415a2849eea77b4639de7a062778
+SHA1: b172f806f99c09010b5e5e5bf84ece5b35006217
+SHA256: 775f5f26bb4b004400dab04ead2420fac093eba9f57027bc7fd5ba4ae4435e59
 Section: unknown
 Priority: optional
 Description: A Software Configuration Management system from
@@ -799,21 +905,6 @@ Description: PlasticSCM Mono runtime
 Original-Maintainer: Debian Mono Group <pkg-mono-group@lists.alioth.debian.org>
 
 Package: plasticscm-proxy-server
-Version: 11.0.16.10181
-Architecture: amd64
-Maintainer: Miguel Gonzalez <mgonzalez@codicesoftware.com>
-Installed-Size: 204902
-Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), sudo, libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, systemd
-Filename: ./amd64/plasticscm-proxy-server_11.0.16.10181_amd64.deb
-Size: 78088388
-MD5sum: 64a86a39d8d9497dbe84fe34bd25e6ac
-SHA1: 9bf97b2a6ce53ab14b2e4c2794569fbac29e9550
-SHA256: 6a9fa0fa81d52a26fd92f8d7da22d941b65310f12d8bee8304125af4a2a36d7f
-Section: unknown
-Priority: optional
-Description: The Plastic SCM proxy server. Provides better performance results for heavily distributed teams.
-
-Package: plasticscm-proxy-server
 Version: 11.0.16.10216
 Architecture: amd64
 Maintainer: Miguel Gonzalez <mgonzalez@codicesoftware.com>
@@ -824,51 +915,6 @@ Size: 78128602
 MD5sum: bca5fdee29508b088d3729c4069d3e04
 SHA1: 78b5084e75af4c12df63fd2b4781620d8212768c
 SHA256: 1978dde617825a1f9c3fa489c0535e641b97c635a0e0b741d718af801e976736
-Section: unknown
-Priority: optional
-Description: The Plastic SCM proxy server. Provides better performance results for heavily distributed teams.
-
-Package: plasticscm-proxy-server
-Version: 11.0.16.10235
-Architecture: amd64
-Maintainer: Miguel Gonzalez <mgonzalez@codicesoftware.com>
-Installed-Size: 205008
-Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), sudo, libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, systemd
-Filename: ./amd64/plasticscm-proxy-server_11.0.16.10235_amd64.deb
-Size: 78111058
-MD5sum: c998234b065697d2912f3af3affb9c1e
-SHA1: 4ea9087bbc6dac1072e5dd45589fd121aacb0359
-SHA256: 02d517d94b819390e4802c5499dab4687e91174f6ee2b5a7ad5b27b07e54fc4f
-Section: unknown
-Priority: optional
-Description: The Plastic SCM proxy server. Provides better performance results for heavily distributed teams.
-
-Package: plasticscm-proxy-server
-Version: 11.0.16.10244
-Architecture: amd64
-Maintainer: Miguel Gonzalez <mgonzalez@codicesoftware.com>
-Installed-Size: 205008
-Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), sudo, libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, systemd
-Filename: ./amd64/plasticscm-proxy-server_11.0.16.10244_amd64.deb
-Size: 78105400
-MD5sum: b97fb8393665a229bc6c6804b59ab6da
-SHA1: 7968ab23e093c43ead0e6d86387a7593c7f6bc75
-SHA256: c770f9760f2b5fbd9cdd75ac3bd399c72612f9b9d8ac7eaccf5fef4eb14d4cd0
-Section: unknown
-Priority: optional
-Description: The Plastic SCM proxy server. Provides better performance results for heavily distributed teams.
-
-Package: plasticscm-proxy-server
-Version: 11.0.16.10246
-Architecture: amd64
-Maintainer: Miguel Gonzalez <mgonzalez@codicesoftware.com>
-Installed-Size: 205049
-Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), sudo, libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, systemd
-Filename: ./amd64/plasticscm-proxy-server_11.0.16.10246_amd64.deb
-Size: 78114370
-MD5sum: 4330fd673eddb5e0771688f17376b338
-SHA1: 548d79848513a0f11e1c58a1eaa60dfe05a2889b
-SHA256: c10bf49080b2a76884f2502d9e0687451795ccbad769af94f09f7743bb8b5c30
 Section: unknown
 Priority: optional
 Description: The Plastic SCM proxy server. Provides better performance results for heavily distributed teams.
@@ -888,22 +934,80 @@ Section: unknown
 Priority: optional
 Description: The Plastic SCM proxy server. Provides better performance results for heavily distributed teams.
 
-Package: plasticscm-server-complete
-Version: 11.0.16.10181
+Package: plasticscm-proxy-server
+Version: 11.0.16.10268
 Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 25
-Depends: plasticscm-server-core (= 11.0.16.10181), plasticscm-theme (= 11.0.16.10181)
-Filename: ./amd64/plasticscm-server-complete_11.0.16.10181_amd64.deb
-Size: 1170
-MD5sum: 08fbe07ff98815f9cdcfc575416ff6b0
-SHA1: 68ff78d75782a74a22478acb8912750d927e2c13
-SHA256: 19adaa2fb09a2aa3dd712b0559f02e39140fc7a95a04a1c591fe48475c37a7c6
+Maintainer: Miguel Gonzalez <mgonzalez@codicesoftware.com>
+Installed-Size: 205072
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), sudo, libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, systemd
+Filename: ./amd64/plasticscm-proxy-server_11.0.16.10268_amd64.deb
+Size: 78139134
+MD5sum: 7dfdc5119702569396d10b84034ae39e
+SHA1: a3cb6090f224b0a4e94fffc5f8e53e6e7a25fd6e
+SHA256: 3366926a1c116eaa87ee61bd23a8058a58f097b7b7d08c9064280a85b3fa5878
 Section: unknown
 Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. (Commercial.)
+Description: The Plastic SCM proxy server. Provides better performance results for heavily distributed teams.
+
+Package: plasticscm-proxy-server
+Version: 11.0.16.10269
+Architecture: amd64
+Maintainer: Miguel Gonzalez <mgonzalez@codicesoftware.com>
+Installed-Size: 205072
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), sudo, libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, systemd
+Filename: ./amd64/plasticscm-proxy-server_11.0.16.10269_amd64.deb
+Size: 78137754
+MD5sum: bb82b61ce95572b780b597cec1899334
+SHA1: b380abf4ca5748492ce0339f16f93877224da9f9
+SHA256: c478e3f6d9405e0c33496400be640583202c91014a6d021f9ac84776f23fa478
+Section: unknown
+Priority: optional
+Description: The Plastic SCM proxy server. Provides better performance results for heavily distributed teams.
+
+Package: plasticscm-proxy-server
+Version: 11.0.16.10273
+Architecture: amd64
+Maintainer: Miguel Gonzalez <mgonzalez@codicesoftware.com>
+Installed-Size: 205109
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), sudo, libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, systemd
+Filename: ./amd64/plasticscm-proxy-server_11.0.16.10273_amd64.deb
+Size: 78145370
+MD5sum: e33b36f8a9d63a21ed6f055f846722ed
+SHA1: 8dca4d9c817dc0fa9550245ffce2c7ad85382553
+SHA256: ebe8737edf9ce6f702111a21870452d30b3ab717a0aa43508b41960473579cd2
+Section: unknown
+Priority: optional
+Description: The Plastic SCM proxy server. Provides better performance results for heavily distributed teams.
+
+Package: plasticscm-proxy-server
+Version: 11.0.16.10274
+Architecture: amd64
+Maintainer: Miguel Gonzalez <mgonzalez@codicesoftware.com>
+Installed-Size: 205109
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), sudo, libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, systemd
+Filename: ./amd64/plasticscm-proxy-server_11.0.16.10274_amd64.deb
+Size: 78145440
+MD5sum: c7dfc7fc41fc450c1936649b492b8a90
+SHA1: c3d8d7df904005fadb4c5faf4bd08b8e8af16183
+SHA256: e3b260cddbd55ca3bcd79d8c7262a7ea178001520201117791bb324b8a7b4d2e
+Section: unknown
+Priority: optional
+Description: The Plastic SCM proxy server. Provides better performance results for heavily distributed teams.
+
+Package: plasticscm-proxy-server
+Version: 11.0.16.10275
+Architecture: amd64
+Maintainer: Miguel Gonzalez <mgonzalez@codicesoftware.com>
+Installed-Size: 205109
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), sudo, libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, systemd
+Filename: ./amd64/plasticscm-proxy-server_11.0.16.10275_amd64.deb
+Size: 78132276
+MD5sum: 1530952319e04d468658a68e23b9d1e7
+SHA1: 3092c98c419b361850115519e1bb17b79232c0dd
+SHA256: d4ff4e466cb4b73a20bc2db922d3b8be27c2a2204b8241705446aba8adef9f75
+Section: unknown
+Priority: optional
+Description: The Plastic SCM proxy server. Provides better performance results for heavily distributed teams.
 
 Package: plasticscm-server-complete
 Version: 11.0.16.10216
@@ -916,57 +1020,6 @@ Size: 1174
 MD5sum: 396c0c1399e824aab9bbff34a17b81a6
 SHA1: a8cd348af26333221c0aa775c4b3d106ae6ab816
 SHA256: 2e00415b816c41f2b0e9278f6a5ce60cea51409a966604549711a17b8820f074
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. (Commercial.)
-
-Package: plasticscm-server-complete
-Version: 11.0.16.10235
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 25
-Depends: plasticscm-server-core (= 11.0.16.10235), plasticscm-theme (= 11.0.16.10235)
-Filename: ./amd64/plasticscm-server-complete_11.0.16.10235_amd64.deb
-Size: 1170
-MD5sum: 59da8005855c4ef8f9f5873f73712fbe
-SHA1: 8da4c7ae5e3e6e7997f25047dac71dfef1549bb6
-SHA256: 6b56973a0485cf773f8383e7e57fbfda76943600af5eaa89f8118b301f606dee
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. (Commercial.)
-
-Package: plasticscm-server-complete
-Version: 11.0.16.10244
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 25
-Depends: plasticscm-server-core (= 11.0.16.10244), plasticscm-theme (= 11.0.16.10244)
-Filename: ./amd64/plasticscm-server-complete_11.0.16.10244_amd64.deb
-Size: 1170
-MD5sum: 8ae4e749473198ae0f5c2a1164b6860e
-SHA1: 4455f1a5b0c355e3e1d789acb417671944c2a2f1
-SHA256: ec1ed6e504f6693f04a3e0a68f4e3b8df6426a5b58b31462bfeca6b0d18e611f
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. (Commercial.)
-
-Package: plasticscm-server-complete
-Version: 11.0.16.10246
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 25
-Depends: plasticscm-server-core (= 11.0.16.10246), plasticscm-theme (= 11.0.16.10246)
-Filename: ./amd64/plasticscm-server-complete_11.0.16.10246_amd64.deb
-Size: 1178
-MD5sum: f1336b0e56d424920b3d6a596d122d70
-SHA1: 67724cc310774fc3c3be4c3638627020a1ce3faa
-SHA256: ac4c4b0df8f7d3d9e43e3acaadcea1dac8d704d2f5cc9970eebaa5fd7226d0ee
 Section: unknown
 Priority: optional
 Description: A Software Configuration Management system from
@@ -990,18 +1043,85 @@ Description: A Software Configuration Management system from
  Unity that tracks changes to source code and any
  digital asset over time. (Commercial.)
 
-Package: plasticscm-server-core
-Version: 11.0.16.10181
+Package: plasticscm-server-complete
+Version: 11.0.16.10268
 Architecture: amd64
-Maintainer: Miguel Gonzalez <mgonzalez@codicesoftware.com>
-Installed-Size: 228947
-Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), sudo, libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, systemd
-Conflicts: plasticscm-server, plasticscm-server-core-mono
-Filename: ./amd64/plasticscm-server-core_11.0.16.10181_amd64.deb
-Size: 83725598
-MD5sum: 114aa94d5a00d3b4e314306f4319adc2
-SHA1: 7b39edfdf9b6f685e1dff2c386e084094266d3a4
-SHA256: b744f89f6ad7e2ef14eba25c2f42c105739ddecde934e5c66139b10408f6f555
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 25
+Depends: plasticscm-server-core (= 11.0.16.10268), plasticscm-theme (= 11.0.16.10268)
+Filename: ./amd64/plasticscm-server-complete_11.0.16.10268_amd64.deb
+Size: 1170
+MD5sum: f9b81a0f9568a885fd3b66e609984e88
+SHA1: a450374bb660b0f6a395f613b1653f187284d870
+SHA256: 93280c202d6a67d34ce7581ae5107413c272ab2cb12e52021b69a3c6ded35261
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-server-complete
+Version: 11.0.16.10269
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 25
+Depends: plasticscm-server-core (= 11.0.16.10269), plasticscm-theme (= 11.0.16.10269)
+Filename: ./amd64/plasticscm-server-complete_11.0.16.10269_amd64.deb
+Size: 1174
+MD5sum: 2a4581efbcc0fd263aff159f0b034ac3
+SHA1: b9a4c8098a73b0894047d6ca277aad17bcc2f8cb
+SHA256: f348ec778db3edb95c1e2437dbef3608208d8be448e05ebca868cd5cdca9f054
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-server-complete
+Version: 11.0.16.10273
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 25
+Depends: plasticscm-server-core (= 11.0.16.10273), plasticscm-theme (= 11.0.16.10273)
+Filename: ./amd64/plasticscm-server-complete_11.0.16.10273_amd64.deb
+Size: 1174
+MD5sum: 86a03e24e2f968996990d410ecc9b82d
+SHA1: 1b215353866f478067f30c7fb348919349377a4e
+SHA256: 32fe770f9671e8540984624eb301fd1dad5660aec4665faada6557cc6442a368
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-server-complete
+Version: 11.0.16.10274
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 25
+Depends: plasticscm-server-core (= 11.0.16.10274), plasticscm-theme (= 11.0.16.10274)
+Filename: ./amd64/plasticscm-server-complete_11.0.16.10274_amd64.deb
+Size: 1178
+MD5sum: 7297cc5a3339d5b1e476bb949f50a94e
+SHA1: 085d1484fd575c91d0bf18af049aafe3c2cba24d
+SHA256: ce67ae4f347ec83971aa52f0bcd357387c9a1df761a6c95c879e00845a6dced7
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-server-complete
+Version: 11.0.16.10275
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 25
+Depends: plasticscm-server-core (= 11.0.16.10275), plasticscm-theme (= 11.0.16.10275)
+Filename: ./amd64/plasticscm-server-complete_11.0.16.10275_amd64.deb
+Size: 1174
+MD5sum: c3591e0235d399eaa7c9b02d7c89b5ed
+SHA1: e5147c3f1f35777a001fb95564424673a4bf3f1e
+SHA256: df648d93c0826b4e00fc51558670ac40a9bfd1b043f5a0e2b24ab92e5198f2e2
 Section: unknown
 Priority: optional
 Description: A Software Configuration Management system from
@@ -1027,60 +1147,6 @@ Description: A Software Configuration Management system from
  digital asset over time. (Commercial.)
 
 Package: plasticscm-server-core
-Version: 11.0.16.10235
-Architecture: amd64
-Maintainer: Miguel Gonzalez <mgonzalez@codicesoftware.com>
-Installed-Size: 229047
-Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), sudo, libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, systemd
-Conflicts: plasticscm-server, plasticscm-server-core-mono
-Filename: ./amd64/plasticscm-server-core_11.0.16.10235_amd64.deb
-Size: 83762740
-MD5sum: a2c66619127eda5662996dc48c1f045a
-SHA1: c7c70763e3dbdf766c33f1c6ad19f8c44d3d0520
-SHA256: 65d7951a323951098eff181bc43f191e893dfd3e1bf9c91c3ac933f8e97ce2d8
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. (Commercial.)
-
-Package: plasticscm-server-core
-Version: 11.0.16.10244
-Architecture: amd64
-Maintainer: Miguel Gonzalez <mgonzalez@codicesoftware.com>
-Installed-Size: 229047
-Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), sudo, libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, systemd
-Conflicts: plasticscm-server, plasticscm-server-core-mono
-Filename: ./amd64/plasticscm-server-core_11.0.16.10244_amd64.deb
-Size: 83743654
-MD5sum: 03dfae7bd4986b6b4b74116b5b448f24
-SHA1: 6871aab90f8691d38d312ebeed3b4b9496cba475
-SHA256: 4c878f83513277410a34cdac2b84ae92a3808c1966a53ddc9f513aaa44909db3
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. (Commercial.)
-
-Package: plasticscm-server-core
-Version: 11.0.16.10246
-Architecture: amd64
-Maintainer: Miguel Gonzalez <mgonzalez@codicesoftware.com>
-Installed-Size: 229088
-Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), sudo, libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, systemd
-Conflicts: plasticscm-server, plasticscm-server-core-mono
-Filename: ./amd64/plasticscm-server-core_11.0.16.10246_amd64.deb
-Size: 83758966
-MD5sum: 3af172fade01510c28cf2cc5b177ccd6
-SHA1: 8968b8da12d2fe6c046bcac2b7ca2e88bd9536b3
-SHA256: 21dd2306dacd95881576ffe5d6d89f0425f707d143744f109d1a5c3aa9e4f246
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. (Commercial.)
-
-Package: plasticscm-server-core
 Version: 11.0.16.10255
 Architecture: amd64
 Maintainer: Miguel Gonzalez <mgonzalez@codicesoftware.com>
@@ -1098,17 +1164,90 @@ Description: A Software Configuration Management system from
  Unity that tracks changes to source code and any
  digital asset over time. (Commercial.)
 
-Package: plasticscm-theme
-Version: 11.0.16.10181
+Package: plasticscm-server-core
+Version: 11.0.16.10268
 Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 3857
-Conflicts: plasticscm-client, plasticscm-server
-Filename: ./amd64/plasticscm-theme_11.0.16.10181_amd64.deb
-Size: 1070978
-MD5sum: dc9fcedf489a645fb3ea8208751a4205
-SHA1: 2cbe7f85f934dab4b8b4de76e45695ab13a9348e
-SHA256: 69fcb333e187e321d956580aec95560393e3d7fa8c65c89408589e569bb546a5
+Maintainer: Miguel Gonzalez <mgonzalez@codicesoftware.com>
+Installed-Size: 229111
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), sudo, libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, systemd
+Conflicts: plasticscm-server, plasticscm-server-core-mono
+Filename: ./amd64/plasticscm-server-core_11.0.16.10268_amd64.deb
+Size: 83771540
+MD5sum: 84279d39e65493f26987b4cb52046eff
+SHA1: 06c54508d2f550edbc504023555b875c5d084988
+SHA256: 0fd06410c2c8eeae83e2070ecf1108682e7fc56b93c9cd6979ac25249c53cacc
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-server-core
+Version: 11.0.16.10269
+Architecture: amd64
+Maintainer: Miguel Gonzalez <mgonzalez@codicesoftware.com>
+Installed-Size: 229111
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), sudo, libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, systemd
+Conflicts: plasticscm-server, plasticscm-server-core-mono
+Filename: ./amd64/plasticscm-server-core_11.0.16.10269_amd64.deb
+Size: 83776212
+MD5sum: aa587a88d228c2b9760c619761f2dc5a
+SHA1: c6490114d3d7545c374d039593b0e473d7c2cc0b
+SHA256: 718005a5eff8b2662490ca9aea3249528da8f71d226ed58139ec0d7b974779a7
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-server-core
+Version: 11.0.16.10273
+Architecture: amd64
+Maintainer: Miguel Gonzalez <mgonzalez@codicesoftware.com>
+Installed-Size: 229148
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), sudo, libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, systemd
+Conflicts: plasticscm-server, plasticscm-server-core-mono
+Filename: ./amd64/plasticscm-server-core_11.0.16.10273_amd64.deb
+Size: 83783964
+MD5sum: b13397afff622f900bcae50c4a57b589
+SHA1: 7cb7e5089a2f6ca6f881fe52d75d97cf66327cf3
+SHA256: 091670f8705b86769a5683ecb1f5de7276f373f8ccae4632af1d10600aba0828
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-server-core
+Version: 11.0.16.10274
+Architecture: amd64
+Maintainer: Miguel Gonzalez <mgonzalez@codicesoftware.com>
+Installed-Size: 229148
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), sudo, libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, systemd
+Conflicts: plasticscm-server, plasticscm-server-core-mono
+Filename: ./amd64/plasticscm-server-core_11.0.16.10274_amd64.deb
+Size: 83767944
+MD5sum: fa646893da4eae29399352ed9c3c06aa
+SHA1: dead62e45293e3181a15be0d5cca0626cfcafd98
+SHA256: d6b1eebf5e1b017535121fd65b2d42ac61dce58bb317c48a47f66c4690a6a6c4
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-server-core
+Version: 11.0.16.10275
+Architecture: amd64
+Maintainer: Miguel Gonzalez <mgonzalez@codicesoftware.com>
+Installed-Size: 229148
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.1.1), libgssapi-krb5-2 (>= 1.10+dfsg~), libstdc++6 (>= 4.8), zlib1g (>= 1:1.1.4), sudo, libssl1.0.0 | libssl1.1 | libssl3, libkrb5-3, libicu52 | libicu55 | libicu57 | libicu60 | libicu63 | libicu66 | libicu67 | libicu70 | libicu71 | libicu72 | libicu74 | libicu76, systemd
+Conflicts: plasticscm-server, plasticscm-server-core-mono
+Filename: ./amd64/plasticscm-server-core_11.0.16.10275_amd64.deb
+Size: 83772420
+MD5sum: 39238e6149fa46d805bfbd3773645be1
+SHA1: 64055a8d9d460347792b5e82b35d76e9d98b072b
+SHA256: 0a73343bb382cf0c2c5f32b2a71a034680cce4a6b7cc5cc502b594e99274f91a
 Section: unknown
 Priority: optional
 Description: A Software Configuration Management system from
@@ -1133,57 +1272,6 @@ Description: A Software Configuration Management system from
  digital asset over time. (Commercial.)
 
 Package: plasticscm-theme
-Version: 11.0.16.10235
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 3857
-Conflicts: plasticscm-client, plasticscm-server
-Filename: ./amd64/plasticscm-theme_11.0.16.10235_amd64.deb
-Size: 1071152
-MD5sum: a4806b1380a5f8ec9d4e809a78812a36
-SHA1: 39cf7ca0f0286bacf1f6d9d27b50baa72b19223e
-SHA256: 852bdf2bc2b3a1fe6755708f0fadf7b8c6744ee1b768f3d9e29805e97a5dbe38
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. (Commercial.)
-
-Package: plasticscm-theme
-Version: 11.0.16.10244
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 3860
-Conflicts: plasticscm-client, plasticscm-server
-Filename: ./amd64/plasticscm-theme_11.0.16.10244_amd64.deb
-Size: 1071552
-MD5sum: 17475ba89dabac6cd722edbf77587ee3
-SHA1: 252117a8cb7a59c3b7fe5941348a5aa8d9bcaa3c
-SHA256: b9eadca0bb2d4927e5c915138cff93908701bf9057645334a4cedb70d99f09d1
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. (Commercial.)
-
-Package: plasticscm-theme
-Version: 11.0.16.10246
-Architecture: amd64
-Maintainer: Pablo Santos <psantosl@codicesoftware.com>
-Installed-Size: 3860
-Conflicts: plasticscm-client, plasticscm-server
-Filename: ./amd64/plasticscm-theme_11.0.16.10246_amd64.deb
-Size: 1071860
-MD5sum: 1b35079d3dc5eef634d9db8614a55d71
-SHA1: 715336ee285f52ff2e8a8f2de6f7c87a592ce81c
-SHA256: d0e58ad32a057ede1e57062c37b3e6fef63d93885690ff23d248e6d495363ca4
-Section: unknown
-Priority: optional
-Description: A Software Configuration Management system from
- Unity that tracks changes to source code and any
- digital asset over time. (Commercial.)
-
-Package: plasticscm-theme
 Version: 11.0.16.10255
 Architecture: amd64
 Maintainer: Pablo Santos <psantosl@codicesoftware.com>
@@ -1194,6 +1282,91 @@ Size: 1071496
 MD5sum: fb09fbcb0bf0b201248c07777b99319e
 SHA1: db1384f497d32a878c23f35ad93a812eaaf30111
 SHA256: 46e82501fafd09d3727023d4b6a4c37dc6f990343afc2aad79bb7a4a2ea159bf
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-theme
+Version: 11.0.16.10268
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 3860
+Conflicts: plasticscm-client, plasticscm-server
+Filename: ./amd64/plasticscm-theme_11.0.16.10268_amd64.deb
+Size: 1071738
+MD5sum: 77d437148046fc5ee3402c4f4b2bfe72
+SHA1: dd56b91a7ca65bc949be4d1e0fbc4e5d9afc060b
+SHA256: 911cc5c84eee593e2a29a94e0d3d13a79a3fc13e0cd94eddd8919eb961c3c480
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-theme
+Version: 11.0.16.10269
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 3860
+Conflicts: plasticscm-client, plasticscm-server
+Filename: ./amd64/plasticscm-theme_11.0.16.10269_amd64.deb
+Size: 1071708
+MD5sum: 19b6140856a8641573d3740727c005a2
+SHA1: 623327eb0183e0f3c176f49cb0c338fbad1d5df4
+SHA256: c491567fa838d6ac6a0596117b638d10f49bf29bfdc136921f7be032988d2efe
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-theme
+Version: 11.0.16.10273
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 3860
+Conflicts: plasticscm-client, plasticscm-server
+Filename: ./amd64/plasticscm-theme_11.0.16.10273_amd64.deb
+Size: 1071588
+MD5sum: fb296ed2623d9f54524dd7f258b74ffe
+SHA1: 5abd0d9acb2bddef46dfbb8d02303b2e455c2256
+SHA256: 47a72a76a5c59df56f083f871b0dd357f42ce13cf7ecdd09178fa5b9a4d1b5d6
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-theme
+Version: 11.0.16.10274
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 3860
+Conflicts: plasticscm-client, plasticscm-server
+Filename: ./amd64/plasticscm-theme_11.0.16.10274_amd64.deb
+Size: 1071652
+MD5sum: bae78ccc31d6f2bdacf2685df243637d
+SHA1: 90f9e638fa28da389468fbd78d58af2e89f3bc8d
+SHA256: ecf8a097e5737f3628c1d46a8a0aba3132b63b028b1b7e0bbc9af51b7fec99b6
+Section: unknown
+Priority: optional
+Description: A Software Configuration Management system from
+ Unity that tracks changes to source code and any
+ digital asset over time. (Commercial.)
+
+Package: plasticscm-theme
+Version: 11.0.16.10275
+Architecture: amd64
+Maintainer: Pablo Santos <psantosl@codicesoftware.com>
+Installed-Size: 3860
+Conflicts: plasticscm-client, plasticscm-server
+Filename: ./amd64/plasticscm-theme_11.0.16.10275_amd64.deb
+Size: 1071472
+MD5sum: ecac971958f9594ad858b3b7e6fa119d
+SHA1: 4ffa2d90ea175af0403a3c526f3ade42cd1308e3
+SHA256: 111dc9fa561cc0a336c33e889c12020e3c02dab672232fce79e775cdb455b45c
 Section: unknown
 Priority: optional
 Description: A Software Configuration Management system from
